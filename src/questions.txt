@@ -1,0 +1,11 @@
+Instructions:-
+You need to create an application which has a web page to update a csv file. This uploaded file should be used to read all the data and show in proper table format.
+Also, a new csv file should be generated which contains the original data along with data types for each record.
+ 
+For example, if there are 3 columns in the csv
+ID NAME AMOUNT
+ 
+The final csv will have following columns
+ID ID_TYPE NAME NAME_TYPE AMOUNT AMOUNT_TYPE
+ 
+Note: This assignment will be used for assessment purposes.

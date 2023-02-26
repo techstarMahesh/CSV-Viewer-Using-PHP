@@ -1,0 +1,143 @@
+body {
+    background-color: #F8F8F8;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #2E8B57;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+h3 {
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    text-decoration: none;
+}
+
+
+fieldset {
+    height: 100%;
+    min-height: 70vh;
+    width: max-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    border: 1px solid #E8E8E8;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #E8E8E8;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    font-weight: bold;
+    border: 2px solid #E8E8E8;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* tr:nth-child(even) {
+    background-color: #F8F8F8;
+} */
+
+tr:hover {
+    background-color: #F2F2F2;
+}
+
+/* Colors for odd rows */
+tr:nth-child(odd) td:first-child {
+    background-color: #B0E0E6;
+    color: #1E90FF;
+}
+
+/* tr:nth-child(odd) td:last-child {
+    background-color: #F5DEB3;
+    color: #FF8C00;
+} */
+
+/* Colors for even rows */
+tr:nth-child(even) td:first-child {
+    background-color: #B0E0E6;
+    color: #1E90FF;
+}
+
+/* tr:nth-child(even) td:last-child {
+    background-color: #AFEEEE;
+    color: #008080;
+} */
