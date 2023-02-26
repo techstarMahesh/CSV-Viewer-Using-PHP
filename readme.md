@@ -2,5 +2,5 @@
 
 1. Install docker.
 2. Create and Image
-3. run using this commands:
-   docker compose up
+3. run using this commands: <br>
+   <code>docker compose up </code>
